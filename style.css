@@ -122,7 +122,7 @@ section {
 .card {
     background-color: #fff;
     width: 21.25em;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    box-shadow: 0 40px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
     padding: 25px;
     margin: 15px;
@@ -149,6 +149,18 @@ section {
     font-weight: 700;
     margin: 10px;
 }
+
+.bay {
+    text-decoration: none;
+    color: #3a6cf4;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.bay:hover {
+    color: #601cfc;
+}
+
 
 .projects {
     background-color: #000016;
@@ -239,6 +251,109 @@ section {
 .footer .social-icons a{
     font-size: 1.3em;
     padding: 0 12px 0 0;
+}
+
+.wh-btn {
+    color: #fff;
+    background-color: #50f43a;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    margin-left: 20px;
+}
+
+.buy {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #601cfc;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.buy h2 {
+    color: #4e9eff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.buy h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.buy h3 {
+    color: #4e9eff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+.buy1 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.buy1 h2 {
+    color: #4e9eff;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.buy1 h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.buy1 h3 {
+    color: #4e9eff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wh-btn:hover {
+    background-color: #0af60a;
+    transform: scale(1.1);
 }
 
 @media (max-width:1023px){
